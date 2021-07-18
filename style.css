@@ -1,0 +1,131 @@
+body {
+  background: url('assets/background.jpg') no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+main {
+  margin-bottom: 20rem;
+}
+
+.container-logo {
+  margin: 0 auto;
+  width: fit-content;
+  height: 20rem;
+  margin-bottom: 7rem;
+}
+
+.logo {
+  height: 20rem;
+}
+
+.logo:hover {
+  height: 21rem;
+  transition: 0.2s;
+}
+
+.container {
+  margin: 0 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  max-width: 40%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 80%);
+  border-radius: 1.5rem;
+  box-shadow: 5px 10px 8px #000000;
+  padding: 2rem 4rem;
+}
+
+.text h2 {
+  font-size: 2rem;
+  margin-bottom: 5rem;
+}
+
+.text p {
+  margin-bottom: 2rem;
+}
+
+.social {
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+
+.social a {
+  text-decoration: none;
+  color: white;
+}
+
+.social a .fa-facebook {
+  margin-right: 1rem;
+}
+
+.social a .fa-facebook:hover {
+  color: #385898;
+}
+
+.social a .fa-instagram:hover {
+  color: #f00cdd;
+}
+
+.botao {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.form {
+  display: flex;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 80%);
+  border-radius: 1.5rem;
+  box-shadow: 5px 10px 8px #000000;
+}
+
+form input,
+form label {
+  display: block;
+  margin-bottom: 0.9rem;
+  padding: 5px 25px;
+  border-radius: 2rem;
+}
+
+.textform {
+  color: white;
+}
+
+.fillform {
+  border-radius: 2rem;
+  width: 80%;
+  margin: 2rem 0;
+}
+
+.send {
+  font-weight: bold;
+  cursor: pointer;
+  width: 10rem;
+}
+
+.send:hover {
+  background-color: greenyellow;
+  transition: 1s;
+}
+
+#acceptterms {
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+  padding: 0.2rem 2.5rem;
+  font-size: 1.1rem;
+  color: white;
+  background-color: black;
+}
