@@ -70,10 +70,12 @@ main {
 
 .social a .fa-facebook:hover {
   color: #385898;
+  transition: 0.5s;
 }
 
 .social a .fa-instagram:hover {
   color: #f00cdd;
+  transition: 0.5s;
 }
 
 .botao {
